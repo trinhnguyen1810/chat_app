@@ -29,7 +29,7 @@ To run this application, you need:
 
 3. Create a virtual environment (optional but recommended):
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
@@ -44,14 +44,14 @@ To run this application, you need:
 To start the chat server, run:
 
 ```bash
-python src/chat_server.py
+python3 src/chat_server.py
 ```
 
 ### Starting the Client
 To start a chat client, open another terminal and run:
 
 ```bash
-python src/chat_client.py
+python3 src/chat_client.py
 ```
 
 You can open multiple terminals and run the client script to simulate multiple users connecting to the server.
@@ -60,12 +60,12 @@ You can open multiple terminals and run the client script to simulate multiple u
 For performance testing, run the following script and wait for 1-2 minutes to complete the load test. This will provide analytics on how the system performs under increased load:
 
 ```bash
-python tests/performance/performance_test.py
+python3 tests/performance/performance_test.py
 ```
 
 ### Unit Testing
 To run unit tests for both the client and server, use the following command:
 
 ```bash
-python -m pytest --cov=src tests/
+python3 -m pytest --cov=src tests/
 ```
