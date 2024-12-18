@@ -22,14 +22,18 @@ To run this application, you need:
    cd chat_app
    ```
    or download the zip file
+   and go to the directory
+      ```bash
+   cd chat_app
+   ```
 
-2. Create a virtual environment (optional but recommended):
+3. Create a virtual environment (optional but recommended):
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. Install the required packages:
+4. Install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
