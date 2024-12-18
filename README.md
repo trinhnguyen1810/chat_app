@@ -19,7 +19,7 @@ To run this application, you need:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/chatapplication.git
-   cd chatapplication
+   cd chat_app
    ```
    or download the zip file
 
